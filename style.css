@@ -1,3 +1,69 @@
 img {
-    max-width: 80%;
+    width: 300px;
+}
+i/* Basic spacing */
+body {
+    margin: 30px;
+}
+
+
+/* All divs: padding and bottom margin (single declaration) */
+div {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* Images default width for consistency */
+img {
+    width: 300px;
+}
+
+
+/* Main image larger and centered */
+#main-image {
+    width: 400px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Headings color */
+h2 {
+    color: #e63946;
+}
+
+
+/* Header background */
+#header {
+    background-color: #f1faee;
+}
+
+
+/* Sections share background */
+.section {
+    background-color: #a8dadc;
+}
+
+
+/* Feature cards styling (background, text color, border, shadow) */
+.feature {
+    background-color: #457b9d;
+    color: #f1faee;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    box-shadow: 8px 8px 5px grey;
+}
+
+
+/* List item spacing */
+li {
+    margin-bottom: 10px;
+}
+
+
+/* Quote left margin */
+#quote {
+    margin-left: 20px;
 }
